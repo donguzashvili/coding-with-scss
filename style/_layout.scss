@@ -9,8 +9,14 @@ body, html{
   position: fixed;
   height: $height;
   text-align: center;
+  width: 100%;
+  .nav-form{
+    ul{
+    .logo-nav{
+      @media screen and (max-width:1230px){
+        width: auto;
+      }
   .logo{
-    width: 250px!important;
     height: $height;
     background-color: $leftnav;
     padding: 0 24px;
@@ -29,7 +35,7 @@ display: none;
 display: block;
       background-color: $leftnav;
       text-align: center;
-      width: auto;
+      width: 70px;
     }
     @media screen and (max-width: 480px){
 display: none;
@@ -44,6 +50,10 @@ display: none;
       }
     }
   }
+
+    }
+    }
+  }
   .nav-form {
     display: flex;
     justify-content: space-between;
@@ -52,6 +62,7 @@ display: none;
     ul {
       display: flex;
       margin: 0;
+      padding-left: 0!important;
 
       li {
         list-style: none;
@@ -196,9 +207,6 @@ padding: 7.5px 12px;
    &::-webkit-scrollbar {
     width: 2px;
   }
-  @media screen and (max-width: 1329px){
-width: 247px;
-  }
   @media screen and (max-width: 1230px) {
 display: none;
   }
@@ -265,6 +273,17 @@ display: none;
     }
   }
 }
-.gavigot {
-  height: 1000px;
+.mega-menu{
+  display: flex;
+  background-color: white;
+  border: none;
+}
+.logo-nav{
+  width: 250px;
+  padding: 0!important;
+  .logo{
+    img{
+      padding: 20px 0;
+    }
+  }
 }

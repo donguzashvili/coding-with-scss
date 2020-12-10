@@ -15,24 +15,17 @@
       <change afterPath="$PROJECT_DIR$/../Sentobar/style/img/testimonial.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Sentobar/style/img/ticon.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Sentobar/style/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/_components.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/_layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/boxicons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/boxicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/expand_more-24px.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/img/avatar-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/img/logo-light (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/img/logo-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/img/logo-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/img/us.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/main.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../own project/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../own project/style/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../study/School/ლექცია5/.idea/ლექცია5.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootstrap/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/_layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +41,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lNme7Q2nGjohM7SpVRm2dnS8Ad" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -83,7 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607446020853</updated>
       <workItem from="1607446023374" duration="1609000" />
-      <workItem from="1607536706766" duration="20317000" />
+      <workItem from="1607536706766" duration="20870000" />
+      <workItem from="1607627382057" duration="2513000" />
     </task>
     <servers />
   </component>
