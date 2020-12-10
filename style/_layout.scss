@@ -10,6 +10,7 @@ body, html{
   height: $height;
   text-align: center;
   width: 100%;
+  background-color: white;
   .nav-form{
     ul{
     .logo-nav{
@@ -36,6 +37,7 @@ display: block;
       background-color: $leftnav;
       text-align: center;
       width: 70px;
+      height: 58px;
     }
     @media screen and (max-width: 480px){
 display: none;
@@ -45,7 +47,7 @@ display: none;
       @media screen and (max-width: 1230px) {
         display: flex;
         height: $icon-size;
-        padding: 25px 25px
+        padding: 18px 25px
 
       }
     }
@@ -277,6 +279,7 @@ display: none;
   display: flex;
   background-color: white;
   border: none;
+  padding: 0 12px!important;
 }
 .logo-nav{
   width: 250px;
@@ -284,6 +287,35 @@ display: none;
   .logo{
     img{
       padding: 20px 0;
+    }
+  }
+}
+.main-content{
+  background-color: $bg-color;
+  height: 1000px;
+  margin-left: 250px;
+  @media screen and (max-width:1230px) {
+    margin-left: 0;
+  }
+  .card-content{
+    padding-top: 100px;
+    header{
+      display: flex;
+justify-content: space-between;
+      padding: 0 20px;
+    h2{
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: $nav-font-size;
+      color: $dashboard-color;
+      font-family: $font-family;
+
+    }
+      p{
+        color: $dashboard-color;
+        font-family: $font-family;
+        font-size: $main-content-p-font-size;
+      }
     }
   }
 }
