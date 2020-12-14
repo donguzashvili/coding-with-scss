@@ -1,0 +1,232 @@
+.main-content{
+  display: block;
+  background-color: $bg-color;
+  height: 1000px;
+  margin-left: 250px;
+  @media screen and (max-width:1230px) {
+    margin-left: 0;
+  }
+  .main-content-padding{
+  padding: 0 20px;
+  .card-content{
+    padding-top: 100px;
+    header{
+      display: flex;
+      justify-content: space-between;
+      h2{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: $nav-font-size;
+        color: $dashboard-color;
+        font-family: $font-family;
+
+      }
+      p{
+        color: $dashboard-color;
+        font-family: $font-family;
+        font-size: $main-content-p-font-size;
+      }
+    }
+  }
+  .main-wrap{
+    .left-side-cards{
+      height: 587px;
+      width: 356px;
+      .left-bot-card{
+        height: 280px;
+        width: 331px;
+        background-color: white;
+        margin-top: 15px;
+        border-radius: 5px;
+        .left-bot-card-padding{
+          padding: 20px;
+          div{
+            display: flex;
+            .statistic{
+              img{
+                width: 100px;
+                height: 100px;
+              }
+            }
+            .this-month{
+              display: block;
+              p{
+                font-family: $font-family;
+                font-size: $main-content-p-font-size;
+                margin: 0 0 16px;
+                color: $mute-text;
+                width: 60%;
+                span{
+                  color: #34c38f!important;
+
+                }
+              }
+              h3{
+                color: #495057;
+                font-size: $icon-size;
+                margin: 0 0 8px;
+              }
+            }
+          }
+          header{
+            font-size: $font-size-15;
+            margin: 0 0 7px 0;
+            font-weight: 600;
+            color: #495057;
+          }
+          footer{
+            button {
+              padding: 5px 8px;
+              color: #fff;
+              background-color: #556ee6;
+              border: none;
+              border-radius: 2px;
+
+              &:hover {
+                cursor: pointer;
+              }
+            }
+            p{
+              color: $mute-text;
+              font-size: $main-content-p-font-size;
+font-family: $font-family;
+              width: 90%;
+            }
+          }
+        }
+      }
+      .left-top-card{
+width: 332px;
+        height: 235px;
+        .top-top{
+          height: 230px;
+          width: 330px;
+
+          .top-side{
+            background-color: #D4DBF9;
+            display: flex;
+            height: 40%;
+            justify-content: space-between;
+            padding: 0 20px;
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+        div{
+          h2{
+            font-size: $nav-font-size;
+color: #556ee6!important;
+            font-family: $font_family;
+          }
+          p{
+            font-size: 13px;
+          color:  #556ee6!important
+          }
+        }
+        span {
+          height: 100px;
+          width: 100px;
+
+          img {
+            object-fit: fill;
+            height: 80px;
+            width: 125px;
+          }
+        }
+            }
+          .bot-side{
+            background-color: white;
+            border-bottom-left-radius: 7px;
+            border-bottom-right-radius: 7px;
+.bot-avatar-side{
+  display: flex;
+  .avatar-side{
+    border-radius: 50%!important;
+    padding: 0 15px;
+    width: 30%;
+img{
+  border: 5px solid #f6f6f6;
+  border-radius: 50%!important;
+  height: 60px;
+  width: 60px;
+  margin: -26px 0 ;
+}
+  }
+  .description-side{
+width: 100%;
+    padding: 20px 15px;
+    margin: 15px 0;
+    text-overflow: ellipsis;
+    h5{
+      margin: 0;
+      font-size: $font-size-15;
+      color: #495057;
+    }
+    p{
+      color: #74788d!important;
+      margin: 0;
+      width: 100%;
+      padding: 10px 0 0 0 ;
+      font-size: 13px;
+    }
+  }
+  .right-side{
+    width: 100%;
+    display: block;
+    padding: 0 20px 20px;
+    .button-side{
+      margin: 24px 0 0;
+      padding-left: 5px;
+      button{
+        padding: 5px 8px;
+        color: #fff;
+        background-color: #556ee6;
+        border: none;
+        border-radius: 2px;
+        &:hover{
+          cursor: pointer;
+        }
+        a{
+          text-decoration: none;
+          color: white;
+          font-size: 11px;
+          .button-icon{
+            font-size: 10px;
+          }
+      }
+    }
+    }
+  .project{
+display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    .project-side{
+      h6{
+        margin-top: 15px;
+        margin-bottom: 7px;
+      font-size: $font_size-15;
+    }
+      p{
+        margin: 0;
+        color:#74788d!important;
+      }
+      }
+    .revenue-side{
+      h6{
+        margin-bottom: 7px;
+        margin-top: 15px;
+      font-size: $font_size-15;
+    }
+      p{
+        margin: 0;
+        color:#74788d!important;
+      }
+      }
+  }
+  }
+}
+          }
+          }
+        }
+        }
+      }
+    }
+  }
