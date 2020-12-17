@@ -15,9 +15,7 @@
       <change afterPath="$PROJECT_DIR$/../Sentobar/style/img/testimonial.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Sentobar/style/img/ticon.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Sentobar/style/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_main-content-vol2.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/_diagram.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/_main-content-vol2.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/_table.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../own project/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../own project/style/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../study/School/ლექცია5/.idea/ლექცია5.iml" afterDir="false" />
@@ -26,7 +24,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/_main-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/_main-content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/_main-content-vol2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/_main-content-vol2.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/_navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css.map" afterDir="false" />
@@ -70,6 +68,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -85,6 +84,8 @@
       <workItem from="1607627382057" duration="3966000" />
       <workItem from="1607950994124" duration="21024000" />
       <workItem from="1608048406005" duration="31781000" />
+      <workItem from="1608217897713" duration="6325000" />
+      <workItem from="1608224799802" duration="2256000" />
     </task>
     <servers />
   </component>

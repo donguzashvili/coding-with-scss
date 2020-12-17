@@ -14,6 +14,9 @@ $font-size-15: 15px;
 $mute-text: #9f9f9f;
 $icon-bg-color:#556ee6;
 
+*{
+  font-family: $font-family;
+}
 @mixin chartLine($height,$width, $backgroundColor) {
   height: $height;
   width: $width;

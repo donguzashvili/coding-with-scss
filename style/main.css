@@ -1,3 +1,7 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 .main-content {
   display: block;
   background-color: #F8F8FB;
@@ -592,7 +596,7 @@ body, html {
   list-style: none;
   color: #a6b0cf;
   padding: 15px 30px;
-  font-size: 16px;
+  font-size: 12px;
   transition: 0.4s all linear;
   font-family: "Poppins", sans-serif;
 }
@@ -1104,7 +1108,12 @@ body, html {
 }
 @media screen and (max-width: 500px) {
   .middle-cards .mid-card .top-cities-table table tr td .line-yellow {
-    width: 40px;
+    width: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .middle-cards .mid-card .top-cities-table table tr td .line-yellow {
+    width: 0px;
   }
 }
 .middle-cards .mid-card .top-cities-table table tr td .line-green {
@@ -1125,7 +1134,7 @@ body, html {
 }
 @media screen and (max-width: 500px) {
   .middle-cards .mid-card .top-cities-table table tr td .line-green {
-    width: 80px;
+    width: 60px;
   }
 }
 .middle-cards .mid-card .top-cities-table table tr td .line-blue {
@@ -1146,7 +1155,7 @@ body, html {
 }
 @media screen and (max-width: 500px) {
   .middle-cards .mid-card .top-cities-table table tr td .line-blue {
-    width: 120px;
+    width: 100px;
   }
 }
 .middle-cards .mid-card .top-cities-icon {
@@ -1241,6 +1250,22 @@ body, html {
   font-family: "Poppins", sans-serif;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: #74788d;
+  background-color: #f2f2f5;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  height: 60px;
+  align-items: center;
+  margin: 10px 0;
+  white-space: nowrap;
+}
+.footer .foot {
+  padding: 0 15px;
+}
+
 @keyframes active-arrow {
   0% {
     left: 0px;
@@ -1255,6 +1280,107 @@ body, html {
     left: 22px;
     opacity: 0;
   }
+}
+.table-card {
+  background-color: white;
+  height: auto;
+  width: auto;
+  margin: 10px 0;
+  overflow-x: scroll;
+}
+.table-card .table-padding {
+  padding: 20px;
+}
+.table-card .table-padding table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.table-card .table-padding table .table-head {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #eff2f7;
+  border-top: 1px solid #eff2f7;
+}
+.table-card .table-padding table tr {
+  height: 40px;
+  border-bottom: 1px solid #eff2f7;
+  border-top: 1px solid #eff2f7;
+}
+.table-card .table-padding table tr td {
+  padding: 14px 20px;
+  white-space: nowrap;
+}
+.table-card .table-padding table tr td button {
+  border-radius: 30px;
+  background-color: #556ee6;
+  border: none;
+  color: white;
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  padding: 4px;
+}
+.table-card .table-padding table tr .method {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: 495057;
+}
+.table-card .table-padding table tr .refund {
+  width: auto;
+}
+.table-card .table-padding table tr .refund span {
+  color: #f1b44c;
+  background-color: rgba(241, 180, 76, 0.18);
+  border-radius: 10rem;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  padding: 2px 8px;
+}
+.table-card .table-padding table tr .chargeback {
+  width: auto;
+}
+.table-card .table-padding table tr .chargeback span {
+  color: #f46a6a;
+  background-color: rgba(244, 106, 106, 0.18);
+  border-radius: 10rem;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  padding: 2px 8px;
+}
+.table-card .table-padding table tr .status {
+  width: auto;
+}
+.table-card .table-padding table tr .status span {
+  color: #34c38f;
+  background-color: rgba(52, 195, 143, 0.18);
+  border-radius: 10rem;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  padding: 2px 8px;
+}
+.table-card .table-padding table tr .three-in-one {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: 495057;
+}
+.table-card .table-padding table tr .ID {
+  color: 495057;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+}
+.table-card .table-padding table tr .ID:hover {
+  cursor: pointer;
+}
+.table-card .table-padding table tr th {
+  padding: 0 20px;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: 495057;
+  white-space: nowrap;
+}
+.table-card .table-padding header h4 {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: 495057;
 }
 
 /*# sourceMappingURL=main.css.map */
