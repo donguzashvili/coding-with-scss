@@ -98,6 +98,7 @@
   }
 }
 .main-content .main-content-padding .right-top-side .card {
+  border-radius: 7px;
   height: 60px;
   width: 31%;
   margin: 5px;
@@ -171,6 +172,7 @@
 .main-content .left-side-cards .left-bot-card .left-bot-card-padding div .statistic img {
   width: 100px;
   height: 100px;
+  object-fit: fill;
 }
 .main-content .left-side-cards .left-bot-card .left-bot-card-padding div .this-month {
   display: block;
@@ -592,7 +594,11 @@ body, html {
 .left-nav ul .dashboard {
   color: white !important;
 }
+.left-nav ul .li-no-padding:hover {
+  padding: 15px 30px;
+}
 .left-nav ul li {
+  position: relative;
   list-style: none;
   color: #a6b0cf;
   padding: 15px 30px;
@@ -603,6 +609,22 @@ body, html {
 .left-nav ul li:hover {
   color: white;
   cursor: pointer;
+  padding: 0 30px;
+}
+.left-nav ul li:hover .dropdown-dash {
+  display: block !important;
+}
+.left-nav ul li .dropdown-dash {
+  display: none;
+}
+.left-nav ul li .dropdown-dash li {
+  padding: 7px 24px 7px 35px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  color: #79829c;
+}
+.left-nav ul li .dropdown-dash li:hover {
+  color: white;
 }
 .left-nav ul li i {
   font-size: 1.25rem;
@@ -690,6 +712,7 @@ body, html {
   }
 }
 .right-bot-side .big-card-body {
+  border-radius: 7px;
   background-color: white;
   height: 100%;
   width: 100%;
@@ -799,7 +822,7 @@ body, html {
 }
 @media screen and (max-width: 1230px) and (min-width: 1150px) {
   .right-bot-side .big-card-body .diagram .vertical .element-chart .elements {
-    padding: 0 1.7% !important;
+    padding: 0 1% !important;
   }
 }
 @media screen and (max-width: 1150px) and (min-width: 800px) {
@@ -809,8 +832,53 @@ body, html {
 }
 @media screen and (max-width: 800px) and (min-width: 500px) {
   .right-bot-side .big-card-body .diagram .vertical .element-chart .elements {
-    padding: 0 1% !important;
+    padding: 0 0.7% !important;
   }
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .color {
+  position: relative;
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .color .hover-effect {
+  position: absolute;
+  z-index: 4;
+  padding: 0;
+  list-style: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #c4c4c4;
+  visibility: hidden;
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .color .hover-effect .monthes {
+  background-color: #ECEFF1;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 1px solid #e1e2e5;
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .color .hover-effect .monthes p {
+  padding: 5px 3px;
+  margin: 0;
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .color .hover-effect .series {
+  height: 20px;
+  padding: 5px 12px;
+  display: flex;
+  background-color: rbga(0, 0, 0, 0.7);
+  z-index: 4;
+  align-items: center;
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .color .hover-effect .series span {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  background-color: green;
+}
+.right-bot-side .big-card-body .diagram .vertical .element-chart .elements .color .hover-effect .series p {
+  z-index: 4;
+  white-space: nowrap;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 5px;
 }
 .right-bot-side .big-card-body .diagram .vertical .element-chart .elements .month {
   color: #adb5bd;
@@ -1025,6 +1093,7 @@ body, html {
   padding-left: 3px;
 }
 .middle-cards .mid-card {
+  border-radius: 7px;
   height: 100%;
   width: 32%;
   background-color: white;
@@ -1282,6 +1351,7 @@ body, html {
   }
 }
 .table-card {
+  border-radius: 7px;
   background-color: white;
   height: auto;
   width: auto;

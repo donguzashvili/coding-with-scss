@@ -97,6 +97,7 @@ padding: 0;
   margin: 0 0 20px;
 }
       .card {
+        border-radius: 7px;
         height: 60px;
         width: 31%;
         margin: 5px;
@@ -178,6 +179,7 @@ padding: 0;
             img {
               width: 100px;
               height: 100px;
+              object-fit: fill;
             }
           }
 

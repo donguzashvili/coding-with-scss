@@ -232,9 +232,10 @@ body, html {
   width: 250px;
   overflow: scroll;
   max-height: 95%;
-  @media screen and (max-width:1230px){
+  @media screen and (max-width: 1230px) {
     width: 244.5px;
   }
+
   &::-webkit-scrollbar {
     width: 2px;
   }
@@ -251,7 +252,14 @@ body, html {
       color: white !important;
     }
 
+    .li-no-padding {
+      &:hover {
+        padding: 15px 30px;
+      }
+    }
+
     li {
+      position: relative;
       list-style: none;
       color: $leftnav-font;
       padding: 15px 30px;
@@ -262,6 +270,26 @@ body, html {
       &:hover {
         color: white;
         cursor: pointer;
+        padding: 0 30px;
+      }
+
+      &:hover .dropdown-dash {
+        display: block !important;
+      }
+
+      .dropdown-dash {
+        display: none;
+
+        li {
+          padding: 7px 24px 7px 35px;
+          font-family: $font-family;
+          font-size: $main-content-p-font-size;
+          color: #79829c;
+
+          &:hover {
+            color: white;
+          }
+        }
       }
 
       i {
