@@ -16,7 +16,11 @@ $icon-bg-color:#556ee6;
 
 *{
   font-family: $font-family;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
+
 @mixin chartLine($height,$width, $backgroundColor) {
   height: $height;
   width: $width;

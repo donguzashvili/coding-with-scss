@@ -1,8 +1,9 @@
 .middle-cards{
-  padding: 10px 0;
-  display: flex;
+  display: grid;
   height: auto;
   width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
   @media screen and (max-width: 1220px){
     display: block;
   }
@@ -19,9 +20,8 @@
     height: 100%;
     .social-containers{
       display: flex;
-      @media screen and (max-width: 1220px){
-        justify-content: space-around;
-      }
+      justify-content: space-around;
+
       .social-circle{
 text-align: center;
         .social-descr{
@@ -116,22 +116,20 @@ text-align: center;
   .mid-card{
     border-radius: 7px;
     height: 100%;
-    width: 32%;
+
     background-color: white;
-    margin: 0 20px;
     padding:20px;
     position: relative;
     @media screen and (max-width: 1220px){
-      width: 95%;
+      width: 100%;
       height: auto;
       margin:20px 0;
     }
     @media screen and (max-width: 500px){
-      width: 90%!important;
       margin: 20px 0!important;
     }
     .top-cities-table{
-      padding: 40px 0;
+      padding: 40px 0 0;
       table{
         border-collapse: collapse;
         @media screen and (max-width: 1220px){
@@ -238,7 +236,6 @@ padding: 15px;
     }
     .vl{
       position: absolute;
-      top: 100px;
       left: 26px;
       border-left: 3px dashed $mute-text;
       height: 67%;

@@ -45,7 +45,7 @@ display: flex;
         }
       .right-side-cards {
         display: block;
-        width: 70%;
+        width: 100%;
         @media screen and (max-width:1150px){
           width: 100%;
         }
@@ -60,6 +60,7 @@ display: flex;
           }
 
           div {
+            display: flex;
             button {
               background-color: $icon-bg-color;
               border: none;
@@ -86,25 +87,35 @@ display: flex;
 
     .right-top-side {
       display: flex;
-      padding: 0 10px;
-      justify-content: center;
+      padding: 0 0 0 15px;
+      justify-content: space-between;
+
       @media screen and (max-width: 500px){
-        margin-top: 100px!important;
         flex-wrap: wrap;
+        flex-direction: column;
       }
-@media screen and (max-width: 1150px){
-padding: 0;
-  margin: 0 0 20px;
-}
+
+      @media screen and (max-width: 1150px){
+        padding: 0;
+        margin: 0 0 20px;
+      }
+
       .card {
         border-radius: 7px;
-        height: 60px;
-        width: 31%;
-        margin: 5px;
+        width: 32%;
         background-color: white;
         display: flex;
         justify-content: space-between;
         padding: 20px;
+
+        @media screen and (max-width: 1220px){
+          margin: 0;
+        }
+
+        @media screen and (max-width: 500px){
+          margin: 10px 0;
+          width: 100%;
+        }
 
         .icon-border {
           background-color: #556EE6;
@@ -115,7 +126,9 @@ padding: 0;
           display: flex;
           justify-content: center;
           position: relative;
+          flex-shrink: 0;
 
+          
           :after {
             content: "";
             position: absolute;
@@ -310,6 +323,7 @@ font-size: 11px;
                 height: 60px;
                 width: 60px;
                 margin: -26px 0;
+                object-fit: cover;
               }
             }
 

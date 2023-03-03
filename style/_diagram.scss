@@ -1,133 +1,126 @@
 .right-bot-side {
-  padding: 10px;
-  height: 400px;
-  width: 89%;
-  @media screen and (max-width: 500px){
-    width: 88%!important;
-    margin: 0 0 60px;
-  }
-  @media screen and (max-width:1230px) and (min-width: 1150px){
-    width: 88%!important;
-    margin: 0 0 70px;
-  }
-  @media screen and (max-width:1150px) and (min-width: 500px){
-    width: 98%!important;
-    margin: 0 0 70px;
+  margin: 10px 0 0 15px;
+
+  @media screen and (max-width: 1150px) and (min-width: 500px) {
     padding: 0;
+  }
+  @media screen and (max-width: 500px){
+    margin: 0;
   }
 
   .big-card-body {
     border-radius: 7px;
     background-color: white;
-    height: 100%;
     width: 100%;
-    margin: 5px;
     padding: 20px;
-    @media screen and (max-width:1200px){
-      width: 97%;
+    @media screen and (max-width: 1220px){
+      margin: 0;
     }
-    @media screen and (max-width:800px) {
-      width: 92%;
+    @media screen and (max-width: 500px){
+      padding: 10px;
     }
-footer{
-  .diagram-descriptions{
-    display: flex;
-    justify-content: center;
-    padding: 13px 0;
-    .diagram-box-container{
-      padding: 0 10px;
-      display: flex;
-      align-items: center;
-      .green{
-     background-color:  rgb(52, 195, 143);
-        &:hover{
-          opacity: .8;
+
+    footer {
+      .diagram-descriptions {
+        display: flex;
+        justify-content: center;
+        padding: 13px 0;
+        margin: 20px 0 0;
+        .diagram-box-container {
+          padding: 0 10px;
+          display: flex;
+          align-items: center;
+          .green {
+            background-color: rgb(52, 195, 143);
+            &:hover {
+              opacity: 0.8;
+            }
+          }
+          .yellow {
+            background-color: rgb(241, 180, 76);
+            &:hover {
+              opacity: 0.8;
+            }
+          }
+          .blue {
+            background-color: rgb(85, 110, 230);
+            &:hover {
+              opacity: 0.8;
+            }
+          }
+          .colors {
+            height: 10px;
+            width: 10px;
+            margin: 0 5px;
+          }
+          p {
+            font-size: $main-content-p-font-size;
+            font-family: $font-family;
+            color: $font-color;
+            font-weight: 400;
+          }
         }
       }
-      .yellow{
-        background-color: rgb(241, 180, 76);
-        &:hover{
-          opacity: .8;
-        }
-      }
-      .blue{
-        background-color: rgb(85, 110, 230);
-        &:hover{
-          opacity: .8;
-        }
-      }
-.colors{
-  height: 10px;
-  width: 10px;
-  margin: 0 5px;
-}
-      p{
-        font-size: $main-content-p-font-size;
-        font-family: $font-family;
-        color: $font-color;
-        font-weight: 400;
-      }
     }
-  }
-}
     .diagram {
-      height: 80%;
       width: 100%;
       position: relative;
-.horizontal{
-  height: 100%;
-  width: 90%;
-  position: absolute;
-  li{
-    height: 3px $mute-text;
-    list-style: none;
-    border-bottom: 1px solid $mute-text;
-    padding:26px 0;
-    position: relative;
-    bottom: 246px;
-    z-index: 1;
-    width: 100%;
-    opacity: .1;
-  }
-}
+      margin: 20px 0 0;
+      .horizontal {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        padding: 0 0 0 30px;
+        li {
+          height: 45px;
+          list-style: none;
+          border-bottom: 1px solid $mute-text;
+          z-index: 1;
+          width: 100%;
+          opacity: 0.1;
+        }
+      }
       .vertical {
         display: flex;
-        height: 70%;
         position: relative;
 
         .element-chart {
           position: absolute;
-          display: flex;
-          gap: .6rem;
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+          grid-auto-flow: column;
+          gap: 0.6rem;
           padding: 0 10px;
           width: 90%;
-          bottom: -48%;
           left: 45px;
           align-items: flex-end;
-          @media screen and (max-width: 500px){
-        left: 27px;
+          bottom: -19px;
+          @media screen and (max-width: 500px) {
+            left: 27px;
+            padding: 0 10px 0 0;
           }
           .elements {
-            width: auto;
             bottom: 0;
             padding: 0 9px;
             z-index: 2;
-            @media screen and (max-width: 500px){
-              padding: 0 0.01%!important;
+            margin: 0 auto;
+            @media screen and (max-width: 500px) {
+              padding: 0 0.01% !important;
             }
-            @media screen and (max-width: 1230px) and (min-width: 1150px){
+            @media screen and (max-width: 1230px) and (min-width: 1150px) {
               padding: 0 1% !important;
-
             }
-            @media screen and (max-width:1150px) and  (min-width: 800px) {
-              padding: 0 2%!important;
+            @media screen and (max-width: 1150px) and (min-width: 800px) {
+              padding: 0 2% !important;
             }
-            @media screen and (max-width:800px) and  (min-width: 500px) {
-              padding: 0 0.7%!important;
+            @media screen and (max-width: 800px) and (min-width: 500px) {
+              padding: 0 0.7% !important;
             }
-            .color{
+            .color {
               position: relative;
-              .hover-effect{
+              margin: 0 auto;
+              .hover-effect {
                 position: absolute;
                 z-index: 4;
                 padding: 0;
@@ -135,82 +128,80 @@ footer{
                 border-radius: 5px;
                 box-shadow: 1px 1px 2px #c4c4c4;
                 visibility: hidden;
-                .monthes{
-                  background-color: #ECEFF1;
+                .monthes {
+                  background-color: #eceff1;
                   font-size: 10px;
                   font-family: $font-family;
                   border-top-left-radius: 5px;
                   border-top-right-radius: 5px;
                   border-bottom: 1px solid #e1e2e5;
-                  p{
+                  p {
                     padding: 5px 3px;
-                    margin:0;
+                    margin: 0;
                   }
                 }
-.series{
-  height: 20px;
-  padding: 5px 12px;
-  display: flex;
-  background-color: rbga(0, 0, 0, 0.7);
-  z-index: 4;
-  align-items: center;
-  span{
-    height: 13px;
-    width: 13px;
-    border-radius: 50%;
-    background-color: green;
-  }
-  p{
-    z-index:4;
-    white-space: nowrap;
-    font-size: 10px;
-    font-family: $font-family;
-    margin-left: 5px;
-  }
-}
-
+                .series {
+                  height: 20px;
+                  padding: 5px 12px;
+                  display: flex;
+                  background-color: rbga(0, 0, 0, 0.7);
+                  z-index: 4;
+                  align-items: center;
+                  span {
+                    height: 13px;
+                    width: 13px;
+                    border-radius: 50%;
+                    background-color: green;
+                  }
+                  p {
+                    z-index: 4;
+                    white-space: nowrap;
+                    font-size: 10px;
+                    font-family: $font-family;
+                    margin-left: 5px;
+                  }
+                }
               }
             }
-            .month{
+            .month {
               color: #adb5bd;
               font-size: 10px;
             }
-            .b-1{
-              height: 110px!important;
-
+            .b-1 {
+              height: 110px !important;
             }
-.b-2{
-  height: 130px!important;
-}
-            .b-3{
-              height: 100px!important;
+            .b-2 {
+              height: 130px !important;
             }
-            .b-4{
-              height: 160px!important;
+            .b-3 {
+              height: 100px !important;
             }
-            .b-5{
-              height: 55px!important;
+            .b-4 {
+              height: 160px !important;
             }
-            .b-6{
-              height: 110px!important;
+            .b-5 {
+              height: 55px !important;
             }
-            .b-7{
-              height: 90px!important;
+            .b-6 {
+              height: 110px !important;
             }
-            .b-8{
-              height: 115px!important;
+            .b-7 {
+              height: 90px !important;
             }
-            .b-9{
-              height: 55px!important;
+            .b-8 {
+              height: 115px !important;
             }
-            .b-10{
-              height: 40px!important;
+            .b-9 {
+              height: 55px !important;
             }
-            .b-11{
-              height: 90px!important;
+            .b-10 {
+              height: 40px !important;
             }
-            .b-12{
-height: 105px!important;
+            .b-11 {
+              height: 90px !important;
+            }
+            .b-12 {
+              height: 105px !important;
             }
             .bottom-line {
               position: absolute;
@@ -225,7 +216,6 @@ height: 105px!important;
             .green {
               @include chartLine(50px, 7px, green);
               border-radius: 3px;
-
             }
 
             .yellow {
@@ -236,17 +226,13 @@ height: 105px!important;
             .green {
               @include chartLine(50px, 7px, rgb(52, 195, 143));
               border-radius: 3px;
-
             }
 
             .month {
               padding-top: 10px;
-
             }
-
-
           }
-          }
+        }
         .numbers {
           display: block;
           color: #adb5bd;
@@ -255,6 +241,10 @@ height: 105px!important;
 
           p {
             padding: 30px 0 0 20px;
+            @media screen and (max-width: 500px){
+              padding: 30px 0 0 5px;
+
+            }
           }
         }
       }
@@ -262,12 +252,12 @@ height: 105px!important;
   }
 }
 //diagram hovers//
-.green:hover{
-  opacity: .6;
+.green:hover {
+  opacity: 0.6;
 }
 .yellow:hover {
-  opacity: .6;
+  opacity: 0.6;
 }
-.blue:hover{
-  opacity: .6;
-  }
+.blue:hover {
+  opacity: 0.6;
+}

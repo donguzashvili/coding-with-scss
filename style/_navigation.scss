@@ -18,6 +18,9 @@ body, html {
     ul {
       .logo-nav {
         @media screen and (max-width: 1230px) {
+          width: 245px;
+        }
+        @media screen and (max-width: 1000px){
           width: auto;
         }
 
@@ -25,25 +28,29 @@ body, html {
           height: $height;
           background-color: $leftnav;
           padding: 0 24px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
           @media screen and (max-width: 1000px) {
             display: none;
           }
 
           img {
-            width: 87px;
-            height: 19px;
-            padding: 25px 55px;
+            width: 100%;
+            height: 60%;
+            object-fit: contain;
           }
         }
 
         .logo2 {
           display: none;
           @media screen and (max-width: 1000px) {
-            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background-color: $leftnav;
-            text-align: center;
             width: 70px;
-            height: 58px;
+            height: 100%;
           }
           @media screen and (max-width: 480px) {
             display: none;
@@ -53,9 +60,8 @@ body, html {
             display: none;
             @media screen and (max-width: 1230px) {
               display: flex;
-              height: $icon-size;
-              padding: 18px 25px
-
+              height: 33px;
+              padding: 0;
             }
           }
         }
@@ -112,7 +118,6 @@ body, html {
 
     :first-child {
       align-items: center;
-      padding: 7.5px 12px;
 
       .media_query {
         @media screen and (max-width: 1230px) {
@@ -190,6 +195,7 @@ body, html {
             width: 36px;
             border-radius: 50%;
             padding: 3px;
+            object-fit: cover;
           }
 
           p {
@@ -270,7 +276,7 @@ body, html {
       &:hover {
         color: white;
         cursor: pointer;
-        padding: 0 30px;
+        // padding: 0 30px;
       }
 
       &:hover .dropdown-dash {
